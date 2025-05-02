@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.conteudo {
+    width: 100%; /* LARGURA */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textos {
+    width: 600px;
+}
+
+h2 {
+    color: #333; /* Cor do texto */
+    font-size: 60px; /* Tamanho do texto */
+    font-weight: bold; /* Grossura do texto*/
+}
+
+span {
+    color: #ab0000;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background: #031e96;/* background -> fundo do elemento */
+    color: white;/* cor do texto */
+    border-radius: 40px;/* arredondamento da borda */
+    border: none;/* borda do elemento */
+    cursor: pointer;/* cursor do mouse */
+    padding: 10px; /* espaçamento interno */
+    margin-top: 20px;/* Cria uma margem  */
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: #999999;
+}
+
+.imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+width: 700px;
+
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+}
+
+
+.logo {
+    width: 80px;
+}
+
+.logo2 {
+width: 100px;
+
+}
+.imagem-copo {
+    width: 700px;
+
+
+}
+
+.circulo {
+    background: #640901;
+    height: 100%; /* Altura */
+    width: 100%; /* Largura */
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 900px);
+    z-index: -1;
+}
+
